@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+.container {
+    width: 100%;
+}
+
+nav {
+    /* background-color: lime; */
+    height: 100px;
+
+}
+
+nav .nav_logo {
+    background-color: yellowgreen;
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container nav .nav_links {
+    background-color: olivedrab;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container nav .nav_socialicons {
+    background-color: palegoldenrod;
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    /* background-color: lightyellow; */
+    height: 1800px;
+    margin-top: 20px;
+}
+
+main .image_slider {
+    background-color: mediumseagreen;
+    height: 600px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+main .card_lists {
+    /* background-color: oldlace; */
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .card_lists .card1 {
+    background-color: orchid;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+main .card_lists .card2 {
+    background-color: powderblue;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+main .card_lists .card3 {
+    background-color: orchid;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+main .popular_post {
+    /* background-color: sandybrown; */
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+main .popular_post .image_post1 {
+    background-color: sienna;
+    height: 400px;
+    width: 55%;
+
+}
+
+main .popular_post .category_post {
+    background-color: greenyellow;
+    height: 400px;
+    width: 35%;
+}
+
+main .other_posts {
+    /* background-color: lightcyan; */
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+main .other_posts .image_post2 {
+    background-color: lightgreen;
+    height: 300px;
+    width: 500px;
+}
+
+main .other_posts .image_post3 {
+    background-color: yellow;
+    height: 200px;
+    width: 500px;
+}
+
+main .other_posts .newletter_contaier .news_letter {
+    /* background-color: lightgreen; */
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+footer {
+    background-color: burlywood;
+    height: 100px;
+    
+}

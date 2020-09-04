@@ -1,0 +1,93 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: dimgrey;
+    background-image: url(images/pexels-valeria-boltneva-842571.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+
+}
+
+ul {
+    list-style: none;
+}
+
+li,
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+main p {
+    text-align: center;
+}
+
+header {
+    /* background-color: limegreen; */
+    height: 100px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.flex-container {
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 50px;
+}
+
+main {
+    /* background-color: rgb(241, 171, 18); */
+    height: 500px;
+
+}
+
+.sub_container {
+    /* background-color: yellow; */
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    cursor: pointer;
+}
+
+
+.reservation_container {
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    margin: auto;
+    padding-top: 12px;
+    margin-top: 60px;
+}
+
+
+.container .flex-container .nav__links {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.411);
+    height: 25px;
+    text-align: center;
+    margin-top: 10px;
+}

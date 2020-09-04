@@ -1,0 +1,163 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+
+.card_container {
+    /* background-color: aqua; */
+    background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);
+    height: 768px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=------------------- card 1-----------------*/
+.card_container .card_1 {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-right: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.card_container .card_1:hover{
+    opacity: 0.7;
+}
+
+.card_container .card_1 .image_post {
+    /* background-color: greenyellow; */
+    /* background-image: url(./images/pexels-fabian-wiktor-994605.jpg); */
+    background-image: url(images/WhatsApp\ Image\ 2020-09-04\ at\ 10.18.10.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card_container .card_1 .btn_explore {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 100px;
+    margin: 20px 80px 0 80px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+
+}
+
+.card_container .card_1 .btn_explore:hover {
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.card_container .card_1 p {
+    margin: 20px 0 0 0;
+}
+
+/*=-----X------------- card 1------X----------*/
+
+/*=------------------- card 2-----------------*/
+.card_container .card_2 {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-right: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.card_container .card_2:hover{
+    opacity: 0.7;
+}
+
+.card_container .card_2 .image_post {
+    /* background-color: greenyellow; */
+    background-image: url(images/WhatsApp\ Image\ 2020-09-04\ at\ 10.17.51.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card_container .card_2 .btn_explore {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 100px;
+    margin: 20px 80px 0 80px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+
+.card_container .card_2 .btn_explore:hover {
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.card_container .card_2 p {
+    margin: 20px 0 0 0;
+}
+
+
+/*=--------X---------- card 2--------X--------*/
+
+/*=------------------- card 3-----------------*/
+
+.card_container .card_3 {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-right: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    font-weight: 600;
+    transition: 0.8s;
+}
+
+.card_container .card_3:hover{
+    opacity: 0.7;
+}
+
+.card_container .card_3 .image_post {
+    /* background-color: greenyellow; */
+    background-image: url(images/WhatsApp\ Image\ 2020-09-04\ at\ 10.18.08.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card_container .card_3 .btn_explore {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 100px;
+    margin: 20px 80px 0 80px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+
+}
+
+.card_container .card_3 .btn_explore:hover {
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.card_container .card_3 p {
+    margin: 20px 0 0 0;
+}
+
+
+/*=-------X----------- card 3-------X---------*/
